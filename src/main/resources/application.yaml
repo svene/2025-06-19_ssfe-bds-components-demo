@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: "ssfe-bds-components-demo"
+gg:
+  jte:
+    developmentMode: false
+    usePrecompiledTemplates: true
+

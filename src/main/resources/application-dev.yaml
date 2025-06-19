@@ -1,0 +1,12 @@
+gg:
+  jte:
+    developmentMode: true
+    usePrecompiledTemplates: false
+    templateLocation: src/main/java
+    templateSuffix: .jte
+spring:
+  view-component:
+    local-development: true
+management:
+  server:
+    port: 9091

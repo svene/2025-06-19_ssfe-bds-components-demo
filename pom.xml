@@ -17,6 +17,7 @@
     <properties>
         <java.version>21</java.version>
         <baloise-spring-platform-version>1.1.0</baloise-spring-platform-version>
+        <jte.version>3.1.12</jte.version>
     </properties>
 
     <dependencies>
@@ -28,6 +29,11 @@
             <groupId>gg.jte</groupId>
             <artifactId>jte-spring-boot-starter-3</artifactId>
             <version>3.1.16</version>
+        </dependency>
+        <dependency>
+            <groupId>de.tschuehly</groupId>
+            <artifactId>spring-view-component-jte</artifactId>
+            <version>0.8.4</version>
         </dependency>
 
         <dependency>
@@ -62,6 +68,27 @@
                     </excludes>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>gg.jte</groupId>
+                <artifactId>jte-maven-plugin</artifactId>
+                <version>${jte.version}</version>
+                <configuration>
+                    <sourceDirectory>${project.basedir}/src/main/jte</sourceDirectory>
+                    <targetDirectory>${project.build.directory}/jte-classes</targetDirectory>
+                    <contentType>Html</contentType>
+                    <gg.jte.developmentMode>true</gg.jte.developmentMode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>precompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 
