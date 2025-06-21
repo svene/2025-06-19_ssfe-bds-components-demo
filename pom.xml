@@ -40,6 +40,16 @@
             <artifactId>baloise-design-system-ssfe-components</artifactId>
             <version>19.1.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator-lite</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>baloise-design-system</artifactId>
+            <version>19.2.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -51,6 +61,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
