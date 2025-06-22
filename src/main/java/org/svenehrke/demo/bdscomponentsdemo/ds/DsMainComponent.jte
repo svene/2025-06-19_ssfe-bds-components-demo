@@ -13,13 +13,13 @@
 </head>
 
 <body>
-<h1>Demo App</h1>
+<p>Menu:</p>
 <ul>
-    <li><a href="/dsmain">DS-Main</a></li>
-    <li><a href="/main">Main</a></li>
+    <li><a href="/dsmain">BDS Component</a></li>
+    <li><a href="/main">JTE Component</a></li>
 </ul>
 <hr>
-
+<p>Design System Heading Webcomponent:</p>
     <bal-heading level="h1" color="success">DS H1</bal-heading>
     <bal-heading level="h3" color="success">DS H3</bal-heading>
 </body>
