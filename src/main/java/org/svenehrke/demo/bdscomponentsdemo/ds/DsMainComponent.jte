@@ -24,7 +24,7 @@
     <bal-heading level="h3" color="success">DS H3</bal-heading>
 
 <hr>
-<bal-heading id="myheading" level="h1" color="success">DS H1</bal-heading>
+<bal-heading id="myheading" level="h1" color="success"><span>Heading</span></bal-heading>
 <button onclick="document.getElementById('myheading').setAttribute('level', 'h1')">H1</button>
 <button onclick="document.getElementById('myheading').setAttribute('level', 'h2')">H2</button>
 
