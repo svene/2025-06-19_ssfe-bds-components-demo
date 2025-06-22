@@ -10,7 +10,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/webjars/baloise-design-system/19.2.0/@baloise/ds-styles/css/all.min.css" />
-	<link rel="stylesheet" href="/jte-heading-demo.css" /> <%-- See note in css file--%>
+	<link rel="stylesheet" href="/jte-heading-component.css" /> <%-- See note in css file--%>
 </head>
 
 <body>

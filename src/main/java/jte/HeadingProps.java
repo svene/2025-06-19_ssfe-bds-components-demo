@@ -10,7 +10,8 @@ public record HeadingProps(Integer level) {
 			case 5 -> "normal";
 			default -> "xxx-large";
 		};
-		return "bal-heading bal-heading--level-h%s bal-heading__text bal-heading__text--color-success bal-heading__text--size-%s"
-			.formatted(level, size);
+		return "bal-heading bal-heading--level-hLEVEL bal-heading__text bal-heading__text--color-success bal-heading__text--size-SIZE"
+			.replaceAll("LEVEL", ""+level)
+			.replaceAll("SIZE", size);
 	}
 }
