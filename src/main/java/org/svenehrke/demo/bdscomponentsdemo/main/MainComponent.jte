@@ -12,7 +12,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/webjars/baloise-design-system/19.2.0/@baloise/ds-styles/css/all.min.css" />
 	<link rel="stylesheet" href="/jte-heading-component.css" /> <%-- See note in css file--%>
-	<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js" defer></script>
 </head>
 
 <body>
