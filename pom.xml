@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>baloise-design-system</artifactId>
-            <version>19.2.0</version>
+            <version>19.3.0</version>
         </dependency>
 
         <dependency>

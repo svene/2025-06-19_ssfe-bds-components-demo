@@ -1,5 +1,5 @@
 @import gg.jte.Content
-@import jte.HeadingProps
+@import org.svenehrke.demo.bdscomponentsdemo.ds.heading.HeadingProps
 
 @param HeadingProps props
 @param Content content

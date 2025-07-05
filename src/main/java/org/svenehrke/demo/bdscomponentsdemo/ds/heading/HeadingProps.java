@@ -1,4 +1,4 @@
-package jte;
+package org.svenehrke.demo.bdscomponentsdemo.ds.heading;
 
 public record HeadingProps(Integer level) {
 
@@ -13,5 +13,8 @@ public record HeadingProps(Integer level) {
 		return "bal-heading bal-heading--level-hLEVEL bal-heading__text bal-heading__text--color-success bal-heading__text--size-SIZE"
 			.replaceAll("LEVEL", ""+level)
 			.replaceAll("SIZE", size);
+	}
+	public static HeadingProps make(int level) {
+		return new HeadingProps(level);
 	}
 }
