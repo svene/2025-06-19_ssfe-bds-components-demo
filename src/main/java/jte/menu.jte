@@ -1,5 +1,6 @@
 @import org.svenehrke.demo.bdscomponentsdemo.demos.dsdemos.dsheading.DsHeadingDemo
 @import org.svenehrke.demo.bdscomponentsdemo.demos.heading.HeadingDemo
+@import org.svenehrke.demo.bdscomponentsdemo.demos.libcmpdemo.LibCmpDemo
 @import org.svenehrke.demo.bdscomponentsdemo.demos.componentspocs.cmppoc01.CmpPoc01Demo
 
 <p>Menu:</p>
@@ -7,5 +8,6 @@
     <li><a href="/main">Home</a></li>
     <li><a href="${DsHeadingDemo.URL}">${DsHeadingDemo.TITLE}</a></li>
     <li><a href="${HeadingDemo.URL}">${HeadingDemo.TITLE}</a></li>
+    <li><a href="${LibCmpDemo.URL}">${LibCmpDemo.TITLE}</a></li>
     <li><a href="${CmpPoc01Demo.URL}">${CmpPoc01Demo.TITLE}</a></li>
 </ul>

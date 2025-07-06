@@ -1,5 +1,4 @@
 @import org.svenehrke.demo.bdscomponentsdemo.demos.Main.Ctx
-@import org.bds.greet.GreetCM
 
 
 @param Ctx ctx
@@ -15,14 +14,5 @@
 
 <body>
 	@template.jte.menu()
-	<hr>
-
-	<hr>
-<p>Library PoC components:</p>
-<h3></h3>
-@template.root()
-@template.org.bds.greet.greet(null)
-@template.org.bds.greet.greet(new GreetCM("Bla"))
-
 </body>
 </html>
