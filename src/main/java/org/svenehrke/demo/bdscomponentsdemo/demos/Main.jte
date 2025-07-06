@@ -1,6 +1,5 @@
 @import org.svenehrke.demo.bdscomponentsdemo.demos.Main.Ctx
 @import org.bds.greet.GreetCM
-@import org.svenehrke.demo.bdscomponentsdemo.minicomponent.MiniProps;
 
 
 @param Ctx ctx
@@ -17,14 +16,8 @@
 <body>
 	@template.jte.menu()
 	<hr>
-<p>Mini-Component:</p>
-<h3></h3>
-@template.jte.minicomponent(new MiniProps("20px"))
 
-@template.jte.minicomponent(new MiniProps("10px"))
-
-
-<hr>
+	<hr>
 <p>Library PoC components:</p>
 <h3></h3>
 @template.root()
