@@ -15,16 +15,18 @@
 
 <p>Component PoC 01</p>
 <h3></h3>
-<div x-data="{ fontsize: '20px'}">
-    @template.jte.cmppoc01(new CmpPoc01Props())
+<div style="display: flex; gap: 10px; margin-bottom: 20px" x-data="{ fontsize: '20px'}">
     <button x-on:click="fontsize = '10px'">10</button>
     <button x-on:click="fontsize = '20px'">20</button>
+    @template.jte.cmppoc01(new CmpPoc01Props(), content = @`
+        Instance 1`)
 </div>
 
-<div x-data="{ fontsize: '10px'}">
-    @template.jte.cmppoc01(new CmpPoc01Props())
+<div style="display: flex; gap: 10px;" x-data="{ fontsize: '10px'}">
     <button x-on:click="fontsize = '10px'">10</button>
     <button x-on:click="fontsize = '20px'">20</button>
+    @template.jte.cmppoc01(new CmpPoc01Props(), content = @`
+        Instance 2`)
 </div>
 
 </body>
