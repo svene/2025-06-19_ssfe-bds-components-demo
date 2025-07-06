@@ -1,5 +1,4 @@
-@import org.svenehrke.demo.bdscomponentsdemo.ds.heading.HeadingProps
-@import org.svenehrke.demo.bdscomponentsdemo.main.MainComponent.Ctx
+@import org.svenehrke.demo.bdscomponentsdemo.demos.Main.Ctx
 @import org.bds.greet.GreetCM
 @import org.svenehrke.demo.bdscomponentsdemo.minicomponent.MiniProps;
 

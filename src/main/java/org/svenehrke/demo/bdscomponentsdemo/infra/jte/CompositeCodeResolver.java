@@ -1,4 +1,4 @@
-package org.svenehrke.demo.bdscomponentsdemo.jte;
+package org.svenehrke.demo.bdscomponentsdemo.infra.jte;
 
 import gg.jte.CodeResolver;
 

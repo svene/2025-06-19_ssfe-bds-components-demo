@@ -1,4 +1,4 @@
-package org.svenehrke.demo.bdscomponentsdemo.main;
+package org.svenehrke.demo.bdscomponentsdemo.demos;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -13,7 +13,7 @@ import org.svenehrke.demo.bdscomponentsdemo.shared.RequestViewContext;
 @RequiredArgsConstructor
 @Controller
 @Slf4j
-public class MainComponent {
+public class Main {
     private final RequestViewContext rvc;
 
     public static final String URL = "/main";

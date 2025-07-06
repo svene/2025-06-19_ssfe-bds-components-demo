@@ -1,4 +1,4 @@
-package org.svenehrke.demo.bdscomponentsdemo.ds;
+package org.svenehrke.demo.bdscomponentsdemo.demos.heading;
 
 import de.tschuehly.spring.viewcomponent.core.component.ViewComponent;
 import de.tschuehly.spring.viewcomponent.jte.ViewContext;
@@ -12,17 +12,18 @@ import org.svenehrke.demo.bdscomponentsdemo.shared.RequestViewContext;
 @RequiredArgsConstructor
 @Controller
 @Slf4j
-public class DsMainComponent {
-	private final RequestViewContext rvc;
+public class HeadingDemo {
+    private final RequestViewContext rvc;
 
-	public static final String URL = "/dsmain";
+    public static final String URL = "/demo/heading";
+    public static final String TITLE = "Heading Component Demo";
 
-	public record Ctx(
-		RequestViewContext rvc
-	) implements ViewContext {}
+    public record Ctx(
+        RequestViewContext rvc
+    ) implements ViewContext {}
 
-	@GetMapping(URL)
-	public ViewContext ctx() {
-		return new DsMainComponent.Ctx(rvc);
-	}
+    @GetMapping(URL)
+    public ViewContext ctx() {
+        return new Ctx(rvc);
+    }
 }

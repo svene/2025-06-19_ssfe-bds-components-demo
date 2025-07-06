@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.bdscomponentsdemo.ds.heading.HeadingProps
+@import org.svenehrke.demo.bdscomponentsdemo.components.heading.HeadingProps
 
 <!doctype html>
 <html lang="en">

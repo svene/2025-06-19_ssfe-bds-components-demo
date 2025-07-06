@@ -1,4 +1,4 @@
-@import org.svenehrke.demo.bdscomponentsdemo.ds.DsMainComponent.Ctx
+@import org.svenehrke.demo.bdscomponentsdemo.demos.dsdemos.dsheading.DsHeadingDemo.Ctx
 
 @param Ctx ctx
 

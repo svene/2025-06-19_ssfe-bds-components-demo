@@ -1,4 +1,4 @@
-package org.svenehrke.demo.bdscomponentsdemo.ds.heading;
+package org.svenehrke.demo.bdscomponentsdemo.components.heading;
 
 public record HeadingProps(Integer level) {
 
