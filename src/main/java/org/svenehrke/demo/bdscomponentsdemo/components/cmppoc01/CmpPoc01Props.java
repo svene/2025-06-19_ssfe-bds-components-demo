@@ -1,5 +1,5 @@
 package org.svenehrke.demo.bdscomponentsdemo.components.cmppoc01;
 
-public record CmpPoc01Props(String fontSize) {
+public record CmpPoc01Props() {
 
 }
