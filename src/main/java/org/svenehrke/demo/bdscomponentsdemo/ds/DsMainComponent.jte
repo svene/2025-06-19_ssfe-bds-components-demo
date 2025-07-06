@@ -13,11 +13,7 @@
 </head>
 
 <body>
-<p>Menu:</p>
-<ul>
-    <li><a href="/dsmain">BDS Component</a></li>
-    <li><a href="/main">JTE Component</a></li>
-</ul>
+@template.jte.menu()
 <hr>
 <p>Design System Heading Webcomponent:</p>
     <bal-heading level="h1" color="success">DS H1</bal-heading>
