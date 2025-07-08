@@ -15,21 +15,30 @@
 
 <p>Component PoC 01</p>
 <h3></h3>
-<div style="display: flex; gap: 10px; margin-bottom: 20px; border-style: groove; max-width: fit-content;" x-data="{ fontsize: '20px'}">
+<style>
+    .cmpdemo {
+        display: flex;
+        gap: 10px;
+        border-style: groove;
+        max-width: fit-content;
+        margin-bottom: 20px;
+    }
+</style>
+<div class="cmpdemo" x-data="{ fontsize: '20px'}">
     <button x-on:click="fontsize = '10px'">10</button>
     <button x-on:click="fontsize = '20px'">20</button>
     @template.jte.cmppoc01(new CmpPoc01Props(), content = @`
         Instance 1`)
 </div>
 
-<div style="display: flex; gap: 10px; border-style: groove; max-width: fit-content;" x-data="{ fontsize: '10px'}">
+<div class="cmpdemo" x-data="{ fontsize: '10px'}">
     <button x-on:click="fontsize = '10px'">10</button>
     <button x-on:click="fontsize = '20px'">20</button>
     @template.jte.cmppoc01(new CmpPoc01Props(), content = @`
         Instance 2`)
 </div>
 
-<div style="display: flex; gap: 10px; border-style: groove; max-width: fit-content;" x-data="{ fontsize: '10px'}">
+<div class="cmpdemo" x-data="{ fontsize: '10px'}">
     <div x-on:instance3-fontsize.window="fontsize = $event.detail.fs"></div>
     @template.jte.cmppoc01(new CmpPoc01Props(), content = @`
         Instance 3
